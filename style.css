@@ -28,7 +28,7 @@ body {
 
 .logos {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 25px 25px;
   background: white;
   white-space: nowrap;
   position: relative;
@@ -70,4 +70,11 @@ body {
 .logos-slide img {
   height: 50px;
   margin: 0 40px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logos-slide img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
 }
