@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZP Media</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="logos">
+    <div class="logos-slide">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+    </div>
+  </div>
+
+  <div class="logos second-carousel">
+    <div class="logos-slide">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+      <img src="./images/jeep-logo.svg" alt="">
+    </div>
+
+    <script>
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+
+      var copy = document.querySelector(".second-carousel .logos-slide").cloneNode(true);
+      document.querySelector(".second-carousel").appendChild(copy);
+    </script>
+</body>
+
+</html>
